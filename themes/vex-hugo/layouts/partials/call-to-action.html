@@ -1,0 +1,20 @@
+    {{- with .Site.Params.call_to_action }}
+    <section class="call-to-action section" id="sponsors">
+      <div class="container">
+        <div class="row">
+          <div class="heading">
+            <h2>{{ .title }}</h2>
+          </div>
+          <h3>{{ .text }}</h3>
+        </div>
+        <div class="row mt-100">
+        {{- $basePath := relURL .directory }}
+        {{- range .images }}
+              
+                <img class="img-fluid" src="{{ $basePath  }}/{{ . }}" alt="" width='500px'>
+             
+        {{- end }}
+        </div>
+      </div>
+    </section><!-- #call-to-action close -->
+    {{- end }}

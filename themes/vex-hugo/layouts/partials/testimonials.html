@@ -1,0 +1,31 @@
+    {{- with .Site.Params.testimonials }}
+    <section class="testimonials section">
+      <div class="container">
+        <div class="row">
+          <div class="heading">
+            <h2>{{ .title }}</h2>
+          </div>
+          {{- range first 6 .blocks }}
+          <div class="col-md-4 text-center">
+            <div class="testimonial-block">
+              <!-- <i class="tf-ion-person"></i>-->
+              <div class="author-details">
+                <img src="{{ .image }}" alt="">
+                <h4>{{ .name }}</h4>
+                <span>{{ .position }}</span>
+              </div>
+             <p>{{ .text | markdownify }}</p>
+            </div>
+          </div>
+          {{- end }}
+        </div>
+        <div class="row mt-100">
+        {{- with .button }}
+          <div class="col-md-12 text-center">
+            <a href="{{ .link }}" class="btn btn-main" style="text-decoration:none">{{ .text }}</a>
+          </div>
+        {{- end }}
+        </div>
+      </div>
+    </section>
+    {{ end }}

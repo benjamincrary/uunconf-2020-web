@@ -1,0 +1,45 @@
+    {{ with .Site.Params.feature_list }}
+    <section class="feature-list section">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="heading">
+                      <h2>{{ .title }}</h2>
+                      <h4 style="text-decoration: none">{{ .subtitle}}</h4>
+                  </div>
+              </div>
+          </div>
+        {{ range $index, $element := .items }}
+          {{- if ne (mod $index 2) 1 }}
+          <div class="row">
+            <div class="col-md-6 text-center">
+              <img class="phead" src="{{ $element.image }}" alt="" height="300" width="300">
+            </div>
+            <div class="col-md-6">
+              <div class="content mt-100">
+                <h4 class="subheading">{{ $element.title }}</h4>
+                <h3 class="subsubheading">{{ $element.subtitle }}</h3>
+                <p class="part-text">{{ $element.text }}</p>
+                <a href="{{ $element.button_link }}" class="btn btn-main btn-main-sm">{{ $element.button_text }}</a>
+              </div>
+            </div>
+          </div>
+          {{- else }}
+          <div class="row">
+            <div class="col-md-6">
+              <div class="content mt-100">
+                <h4 class="subheading">{{ $element.title }}</h4>
+                <h3 class="subsubheading">{{ $element.subtitle }}</h3>
+                <p>{{ $element.text }}</p>
+                <a href="{{ $element.button_link }}" class="btn btn-main btn-main-sm">{{ $element.button_text }}</a>
+              </div>
+            </div>
+            <div class="col-md-6 text-center">
+              <img class="phead" src="{{ $element.image }}" alt="" height="300" width="300">
+            </div>
+          </div>
+          {{- end }}
+        {{- end }}
+      </div>
+    </section>
+    {{- end }}

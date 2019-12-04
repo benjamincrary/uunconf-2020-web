@@ -1,0 +1,32 @@
+    {{ with .Site.Params.gallery }}
+    <section class="gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="heading" style="padding-bottom: 0px">
+              <h2>{{ .title }}</h2>
+            </div>
+            <div class="text-center">
+              <h4 style="padding-bottom: 10px">{{ .subtitle }} <a href='{{ .link }}' style="color: #fff;text-decoration:underline;">{{ .linktext}}</a> </h4>
+              <p></p>
+              <h5>{{.text}}</h5>
+            </div>
+
+            <div class="gallery-slider">
+            {{- $basePath := relURL .directory }}
+            {{- range .images }}
+              <div class="block">
+                <div class="gallery-overlay">
+                  <a href="{{ $basePath }}/{{ . }}" class="image-popup gallery-popup">
+                    <i class="tf-magnifying-glass"></i>
+                  </a>
+                </div>
+                <img class="img-fluid" src="{{ $basePath }}/{{ . }}" alt="">
+              </div>
+            {{- end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {{ end }}
