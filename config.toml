@@ -60,32 +60,32 @@ theme = "vex-hugo"
       path = "images/map.png"
       alt = "Location"
     # Menu at the left of the image
-    [[params.features.left]]
+    [[params.features.right]]
       icon = "tf-calendar2"
       title = "When"
       text = "April 2020"
-    [[params.features.left]]
+    [[params.features.right]]
       icon = "tf-map2"
       title = "Where"
       text = "Minneapolis - St. Paul, MN"
-    [[params.features.left]]
+    [[params.features.right]]
       icon = "tf-ion-person-add"
       title = "Who"
       text = "You!"
-    [[params.features.left]]
+    [[params.features.right]]
       icon = "tf-alarmclock"
       title = "Deadline"
       text = "Applications open soon"
     # Menu at the right of the image
-    [[params.features.right]]
+    [[params.features.left]]
       icon = "tf-ion-calendar"
       title = "Day 0"
       text = "An optional 'Day Zero' workshop for learning how to write R packages and collaborate with Github. More info soon."
-    [[params.features.right]]
+    [[params.features.left]]
       icon = "tf-ion-calendar"
       title = "Day 1"
       text = "Start with some introductions, form project groups, and go! Full schedule TK."
-    [[params.features.right]]
+    [[params.features.left]]
       icon = "tf-ion-calendar"
       title = "Day 2"
       text = "Continue to work on projects, group discussions, report out, dinner as a group. Full schedule TK."
@@ -98,10 +98,14 @@ theme = "vex-hugo"
       alt = "What is an unconf?"
       text = "Photo credit: Karthik Ram, <a href='https://ropensci.org/' style='color: #fff;text-decoration:underline;'>rOpenSci</a>"
 
-#  [params.applications]
-#    title = "Applications"
-#    text = "Applications will be open in early 2020"
-
+  #Test applications
+  [params.applications]
+    title = "What is a test?"
+    text = "Unlike a conference with scheduled sessions and the mere hope of future collaboration, at an unconference, the collaboration happens in real time! Modeled on <a href='https://ropensci.org/blog/2018/06/05/unconf18/' style='color: #fff;text-decoration:underline;'>rOpenSci unconfs</a>, at the Uncoast Unconf, R users and developers of all different backgrounds and levels will come together for two days to collaborate on exciting data science projects. In addition, we will be hosting a Day 0 workshop for participants who are new to package development and collaboration with Github. For more on this type of unconference, see <a href='https://ropensci.org/blog/2017/11/17/unconf-sixtips/' style='color: #fff;text-decoration:underline;'>this post</a>"
+    [params.applications.image]
+      path = "images/karthik-runconf17.png"
+      alt = "What is an unconf?"
+      text = "Photo credit: Karthik Ram, <a href='https://ropensci.org/' style='color: #fff;text-decoration:underline;'>rOpenSci</a>"
 
 
 
@@ -129,7 +133,7 @@ theme = "vex-hugo"
 
   [params.call_to_action]
     title = "Seeking sponsors for 2020!"
-    text = "If you have questions about sponsorship or your organization is interested in becoming a sponsor for 2020, please email Ben Crary at benjamin.crary [at] gmail [dot] com. Another thanks to our past sponsors."
+    text = "If you have questions about sponsorship or your organization is interested in becoming a sponsor for 2020, please email Ben Crary at benjamin.crary@gmail.com. Another thanks to our past sponsors."
     directory = "images/sponsors"
     images = ["csafe.png", "johndeere.PNG", "rstudio.png", "rconsortium.png", "schneider.png", "microsoft.png"]
 
@@ -137,7 +141,7 @@ theme = "vex-hugo"
   [params.testimonials]
     title = "Organizers"
     [[params.testimonials.blocks]]
-      text = "Ben  holds an MS in environmental engineering from UW Madison and currently works for LimnoTech in St. Paul, MN. He specializes in environmental statistcis and data visualization."
+      text = "Ben  holds an MS in environmental engineering from UW Madison and currently works for LimnoTech in St. Paul, MN. He specializes in environmental statistics and data visualization."
       name = "Ben Crary"
       position = "Environmental Engineer, LimnoTech"
       image = "images/ben-crary.png"
@@ -147,10 +151,10 @@ theme = "vex-hugo"
       position = "Postdoc Research Associate, Iowa State University"
       image = "images/sam-headshot.png"
     [[params.testimonials.blocks]]
-      text = "Angela has a background in spatial econometrics and is currently building out spatial analysis resources for applied social science research. She is a proud R-Lady and data science community builder. Learn more about Angela on her <a href='https://angela-li.github.io/'>website</a>."
-      name = "Angela Li"
-      position = "R Spatial Advocate, University of Chicago"
-      image = "images/angela-headshot.png"
+      text = "Ethan is an open science & free software enthusiast with a background in statistics education.  His current passions are <a href = 'https://github.com/statisfactions/simpr'>simulating data</a> to support educational researchers in their decision-making, when he is not busy writing <a href= 'https://soundcloud.com/tnt-yow/plotting-ihaka'>Valentine's Day songs for R.</a>."
+      name = "Ethan Brown"
+      position = "Research Assistant, University of Minnesota"
+      image = "images/ethan-headshot.png"
 #    [params.testimonials.button]
 #     link = "http://bit.ly/uncoastUnconf19"
 #      text = "Apply here!"

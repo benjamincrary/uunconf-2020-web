@@ -332,6 +332,31 @@ a:active {
     font-size: 24px; }
 
 /*--
+  insert application details here
+--*/
+
+.applications-details {
+  color: #fff;
+  background:  #135FB2;
+  font-weight: 500;
+}
+.applications-details a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+  .applications-details h2 {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    text-align: left; }
+  .applications-details p {
+    color: #fff;
+    font-size: 24px; }
+
+
+/*--
     Feature-list start
 --*/
 .feature-list .btn-main {
