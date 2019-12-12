@@ -1,20 +1,20 @@
-    {{ with .Site.Params.applications }}
-    <section class="applications-details section">
+    {{- with .Site.Params.applications }}
+    <section class="applications section" id="application">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 text-center">
-          {{- with .image }}
-            <img src="{{ .path }}" alt="{{ .alt }}">
-            <figcaption>{{ .text | markdownify }}</figcaption>
-          {{- end }}
+          <div class="heading">
+            <h2>{{ .title }}</h2>
           </div>
-          <div class="col-md-6">
-            <div class="content mt-100">
-              <h2 class="subheading">{{ .title }}</h2>
-              {{ .text | markdownify }}
-            </div>
-          </div>
+          <h3>{{ .text }}</h3>
+        </div>
+        <div class="row mt-100">
+        {{- $basePath := relURL .directory }}
+        {{- range .images }}
+              
+                <img class="img-fluid" src="{{ $basePath  }}/{{ . }}" alt="" width='500px'>
+             
+        {{- end }}
         </div>
       </div>
-    </section>
-    {{ end }}
+    </section><!-- #applications close -->
+    {{- end }}

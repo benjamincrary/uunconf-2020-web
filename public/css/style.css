@@ -334,27 +334,35 @@ a:active {
 /*--
   insert application details here
 --*/
-
-.applications-details {
-  color: #fff;
-  background:  #135FB2;
-  font-weight: 500;
-}
-.applications-details a {
-    color: #fff;
-    text-decoration: underline;
-}
-
-  .applications-details h2 {
-    color: #fff;
-    font-weight: 700;
-    margin-bottom: 10px;
+.applications {
+  padding: 90px 0px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #3c3c3c;
+  position: relative; }
+.applications h2 {
+    color: #3c3c3c;
+  }
+  .applications .block h2 {
+    margin-bottom: 6px;
+    color: #3c3c3c;
     padding-bottom: 0;
-    text-align: left; }
-  .applications-details p {
-    color: #fff;
-    font-size: 24px; }
-
+  }
+  .applications .block p {
+    padding-right: 30px;
+    color: #3c3c3cf; }
+  .applications .block .input-group {
+    margin-top: 30px; }
+    .applications .block .input-group .btn-main {
+      padding: 13px 40px; }
+    .applications .block .input-group input {
+      height: 50px;
+      border-top-left-radius: 40px;
+      border-bottom-left-radius: 40px;
+      border: none;
+      padding-left: 15px;
+      box-shadow: none; }
 
 /*--
     Feature-list start
