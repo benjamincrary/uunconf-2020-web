@@ -1,7 +1,7 @@
 baseurl = ""
 languageCode = "en"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-title = "Uncoast Unconf"
+title = "2020 Uncoast Unconf"
 theme = "vex-hugo"
 
 [params]
@@ -44,7 +44,7 @@ theme = "vex-hugo"
 
   # Header
   [params.header]
-    title = "The Uncoast Unconference"
+    title = "The 2020 Uncoast Unconference"
     text = "Bringing R users and developers together in flyover country.<br>Check out our [work](https://github.com/uncoast-unconf/uu-2019) from 2019 and start thinking of ideas for 2020!"
     [params.header.image]
       path = "images/templogo.png"
@@ -59,7 +59,7 @@ theme = "vex-hugo"
     title = "Seeking sponsors for 2020!"
     text = "If you have questions about sponsorship or your organization is interested in becoming a sponsor for 2020, please email Ben Crary at benjamin.crary@gmail.com. Another thanks to our past sponsors."
     directory = "images/sponsors"
-    images = ["csafe.png", "johndeere.PNG", "rstudio.png", "rconsortium.png", "schneider.png", "microsoft.png"]
+    images = ["dash.png", "UMNlib.PNG", "limnotech.png"]
   [params.promo]
     title = "What is an unconference?"
     text = "Unlike a conference with scheduled sessions and the mere hope of future collaboration, at an unconference, the collaboration happens in real time! Modeled on <a href='https://ropensci.org/blog/2018/06/05/unconf18/' style='color: #fff;text-decoration:underline;'>rOpenSci unconfs</a>, at the Uncoast Unconf, R users and developers of all different backgrounds and levels will come together for two days to collaborate on exciting data science projects. In addition, we will be hosting a Day 0 workshop for participants who are new to package development and collaboration with Github. For more on this type of unconference, see <a href='https://ropensci.org/blog/2017/11/17/unconf-sixtips/' style='color: #fff;text-decoration:underline;'>this post</a><br><br>\"The Uncoast Unconf was the most productive professional development activity I've ever done.\" - Karsten Maurer."
