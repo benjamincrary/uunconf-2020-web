@@ -47,7 +47,7 @@ theme = "vex-hugo"
     title = "The 2020 Uncoast Unconference"
     text = "Bringing R users and developers together in flyover country.<br>Check out our [work](https://github.com/uncoast-unconf/uu-2019) from 2019 and start thinking of ideas for 2020!"
     [params.header.image]
-      path = "images/templogo.png"
+      path = "images/logo2020.png"
       alt = "Uncoastal"
 #    [params.header.button]
 #      link = "http://bit.ly/uncoastUnconf19" # in draft status rn.
