@@ -45,7 +45,7 @@ theme = "vex-hugo"
   # Header
   [params.header]
     title = "The 2020 Uncoast Unconference"
-    text = "Bringing R users and developers together in flyover country.<br>Check out our [work](https://github.com/uncoast-unconf/uu-2019) from 2019 and start thinking of ideas for 2020!"
+    text = "Bringing R users and developers together in flyover country.<br>Check out our [work](https://github.com/uncoast-unconf/uu-2019) from 2019 and start thinking of ideas for 2020!<br><br>April 16 - April 18, 2020 in Minneapolis."
     [params.header.image]
       path = "images/logo2020.png"
       alt = "Uncoastal"
@@ -66,7 +66,7 @@ theme = "vex-hugo"
     [params.promo.image]
       path = "images/uuconf2019_working.png"
       alt = "What is an unconf?"
-      text = "2019 Unocast Unconf at John Deere Financial. <br><br>Photo credit: Alexa Earlywine"
+      text = "2019 Uncoast Unconf at John Deere Financial. <br><br>Photo credit: Alexa Earlywine"
   [params.features]
     title = "About"
     [params.features.image]
@@ -76,11 +76,11 @@ theme = "vex-hugo"
     [[params.features.right]]
       icon = "tf-calendar2"
       title = "When"
-      text = "April 2020"
+      text = "April 16-18, 2020"
     [[params.features.right]]
       icon = "tf-map2"
       title = "Where"
-      text = "Minneapolis - St. Paul, MN"
+      text = "[Wilson Research Collaboration Studio](https://www.lib.umn.edu/wilsonstudio) - Univeristy of Minnesota - Minneapolis, MN"
     [[params.features.right]]
       icon = "tf-ion-person-add"
       title = "Who"
@@ -97,14 +97,14 @@ theme = "vex-hugo"
     [[params.features.left]]
       icon = "tf-ion-calendar"
       title = "Day 1"
-      text = "Start with some introductions, form project groups, and go! Full schedule TK."
+      text = "Start with some introductions, form project groups, and go!"
     [[params.features.left]]
       icon = "tf-ion-calendar"
       title = "Day 2"
       text = "Continue to work on projects, group discussions, report out, dinner as a group. Full schedule TK."
   [params.applications]
     title = "Applications"
-    text = "Applications will become open in early 2020. The application period will extend into February. Check back soon for details."
+    text = "Applications will become open in late February. Check back soon for details."
   [params.team]
     enable = true
     # Possibility to center items
@@ -120,7 +120,7 @@ theme = "vex-hugo"
     subtitle = "Thanks to Alexa Earlywine for the photos of the 2019 Uncoast Unconf! See more "
     link = "https://uuconf.rbind.io/"
     linktext = "here."
-    text = "Be sure to check out our sister unconference, the Chicago R Unconference, happening in March."
+    text = "Be sure to check out our sister unconference, the Chicago R Collaborative, happening in March."
     # Set the image directory to use as base
     directory = "images/showcase"
     # Set the images to show in the gallery
