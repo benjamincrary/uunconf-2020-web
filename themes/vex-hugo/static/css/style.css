@@ -491,6 +491,50 @@ a:active {
       font-size: 20px;
       margin-top: 10px;}
 
+
+      /*--
+          dayzero start
+      --*/
+
+      .dayzero {
+        background: #135FB2;
+        color: #fff;}
+
+      .dayzero h2 {
+        color: #fff;
+      }
+
+
+      .dayzero a {
+        color: #fff;
+        text-decoration: underline;
+      }
+      .dayzero .dayzero-block {
+        padding: 0 10px;
+        background:  #135FB2;
+      }
+        .dayzero .dayzero-block i {
+          font-size: 40px;
+          display: inline-block;
+          margin-bottom: 20px;
+          color:  #135FB2; }
+        .dayzero .dayzero-block p {
+          font-family: "Droid Serif", serif;
+          font-size: 14px;
+          color: #fff; }
+        .dayzero .dayzero-block .author-details {
+          margin-top: 30px; }
+          .dayzero .dayzero-block .author-details img {
+            border-radius: 50%;
+            width: 100px;
+            border: 2px solid #fff;
+          }
+          .dayzero .dayzero-block .author-details h4 {
+            font-weight: 700;
+            font-size: 20px;
+            margin-top: 10px;}
+
+
 /*--
     call-to-action start
 --*/
