@@ -155,7 +155,7 @@ theme = "vex-hugo"
       position = "Professor of Statistics, University of St. Thomas"
       image = "images/team/Amelia_TidyverseDress.png"
     [[params.dayzero.blocks]]
-      text = "Ian earned his PhD in Mechanical Engineering from Arizona State Univeristy. He is currently a data scientist at Schneider Electric, involved in the Iowa State Graphics Working Group, and a tidyverse enthusiast."
+      text = "Ian works as a data scientist at Schneider Electric in Cedar Rapids, Iowa. His computing interests include data visualization, interactivity, and learning different ways to think about programming and workflows."
       name = "Ian Lyttle"
       position = "Distinguished Technical Expert, Schneider Electric"
       image = "images/team/ian-headshot.png"
