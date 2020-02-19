@@ -331,6 +331,32 @@ a:active {
     color: #fff;
     font-size: 24px; }
 
+
+/*--
+newapps
+--*/
+
+
+.newapps-details {
+  color: #fff;
+  background:  #135FB2;
+  font-weight: 500;
+}
+.newapps-details a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+  .newapps-details h2 {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    text-align: left; }
+  .newapps-details p {
+    color: #fff;
+    font-size: 24px; }
+
 /*--
   insert application details here
 --*/
@@ -448,6 +474,14 @@ a:active {
         font-size: 30px;
         line-height: 40px;
         display: inline-block; }
+
+
+
+/*--
+
+
+--*/
+
 
 /*--
     service start

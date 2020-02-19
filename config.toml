@@ -45,7 +45,7 @@ theme = "vex-hugo"
   # Header
   [params.header]
     title = "The 2020 Uncoast Unconference"
-    text = "Bringing R users and developers together in flyover country.<br>Check out our [work](https://github.com/uncoast-unconf/uu-2019) from 2019 and start thinking of ideas for 2020!<br><br>April 16 - April 18, 2020 in Minneapolis."
+    text = "Bringing R users and developers together in flyover country.<br>Check out our [work](https://github.com/uncoast-unconf/uu-2019) from 2019 and start thinking of ideas for 2020!<br><br>April 16 - April 18, 2020 in Minneapolis.<br><br><a href='https://forms.gle/1JV5Yvv7D9MRke9K9' style='color: #135FB2;font-size:48px;'>Apply Now!</a>"
     [params.header.image]
       path = "images/logo2020.png"
       alt = "Uncoastal"
@@ -87,13 +87,13 @@ theme = "vex-hugo"
       text = "You!"
     [[params.features.right]]
       icon = "tf-alarmclock"
-      title = "Deadline"
-      text = "Applications open soon"
+      title = "Deadline to Apply"
+      text = "March 4th"
     # Menu at the right of the image
     [[params.features.left]]
       icon = "tf-ion-calendar"
       title = "Day 0"
-      text = "An optional 'Day Zero' workshop for learning how to write R packages and collaborate with Github. More info soon."
+      text = "An optional 'Day Zero' workshop for learning how to write R packages and collaborate with Github. Led by Amelia McNamara and Ian Lyttle."
     [[params.features.left]]
       icon = "tf-ion-calendar"
       title = "Day 1"
@@ -101,10 +101,7 @@ theme = "vex-hugo"
     [[params.features.left]]
       icon = "tf-ion-calendar"
       title = "Day 2"
-      text = "Continue to work on projects, group discussions, report out, dinner as a group. Full schedule TK."
-  [params.applications]
-    title = "Applications"
-    text = "Applications will become open in late February. Check back soon for details."
+      text = "Continue to work on projects, group discussions, report out, dinner as a group."
   [params.team]
     enable = true
     # Possibility to center items
@@ -165,3 +162,6 @@ theme = "vex-hugo"
 
   # Footer uses navbar data
   # Footer uses navbar data
+  [params.newapps]
+    title = "Applications"
+    text = "<a href='https://forms.gle/1JV5Yvv7D9MRke9K9'>Apply by March 4th!</a><br>Decisions will be made by March 11."

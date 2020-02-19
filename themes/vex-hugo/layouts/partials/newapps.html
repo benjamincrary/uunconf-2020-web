@@ -1,0 +1,14 @@
+    {{ with .Site.Params.newapps }}
+    <section class="newapps section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="content mt-100">
+              <h2 class="subheading">{{ .title }}</h2>
+              {{ .text | markdownify }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {{ end }}
