@@ -45,7 +45,7 @@ theme = "vex-hugo"
   # Header
   [params.header]
     title = "The 2020 Uncoast Unconference"
-    text = "Bringing R users and developers together in flyover country.<br>Check out our [work](https://github.com/uncoast-unconf/uu-2019) from 2019 and start thinking of ideas for 2020!<br><br>April 16 - April 18, 2020 in Minneapolis.<br><br><a href='https://forms.gle/1JV5Yvv7D9MRke9K9' style='color: #135FB2;font-size:48px;'>Apply Now!</a>"
+    text = "Bringing R users and developers together in flyover country.<br>Check out our [work](https://github.com/uncoast-unconf/uu-2019) from 2019 and start thinking of ideas for 2020!<br><br>April 16 - April 18, 2020 in Minneapolis."
     [params.header.image]
       path = "images/logo2020.png"
       alt = "Uncoastal"
@@ -164,4 +164,4 @@ theme = "vex-hugo"
   # Footer uses navbar data
   [params.newapps]
     title = "Applications"
-    text = "<a href='https://forms.gle/1JV5Yvv7D9MRke9K9'>Apply by March 4th!</a><br>Decisions will be made by March 11."
+    text = "Applications have closed. Decisions will be made by March 11."
